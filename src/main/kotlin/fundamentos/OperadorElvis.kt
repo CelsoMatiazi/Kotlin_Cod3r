@@ -1,9 +1,8 @@
 package fundamentos
 
-fun main() {
+fun main(args: Array<String>) {
     val opcional: String? = null
-    val obrigatorio: String = opcional ?: "Valor padrão" //caso seja nulo atribui o valor padrao,
-                                                        // caso contrario recebe o valor atrubuido
+    val obrigatorio: String = opcional ?: "Valor Padrão"
 
-    print(obrigatorio)
+    println(obrigatorio)
 }

@@ -1,16 +1,9 @@
 package fundamentos
 
-fun main() {
+fun main(args: Array<String>) {
+    val a: Int = 1
+    val b = 2 // Tipo inferido
 
-    val a: Int = 1 //valor final, a variavel "a" não pode receber outra atribuição
-    val b = 2
-
-    var c: Int = 3 // variavel que permite outras atribuições
-    var d: Int = 4
-
-
-    // acessando bibliotcas em java pelo kotlin
-    val raio = 4.5
-    print(raio * raio * Math.PI) // Math.PI pertence ao Java
-
+    // a = a + b
+    print(a)
 }

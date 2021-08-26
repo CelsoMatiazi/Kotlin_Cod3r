@@ -1,20 +1,24 @@
 package fundamentos
 
-
 /**
- * Comentario KDoc....
- * @param args lista de paramentros passados por linha de comando
+ * Só para dizer que o Kotlin suporta o KDoc... :)
+ *
+ * @param args lista de parâmetros passados por linha de comando
  */
-
-fun main() {
-    //Comentario de uma linha
+fun main(args: Array<String>) {
+    // Comentário de uma linha
     println("Opa")
 
     /*
-    Mais de
-    uma linha
+      Mais de
+      um linha
      */
+    println("Sério?")
 
-
-
+    /*
+     * Mais de
+     * um linha
+     * com estilo
+     */
+    println("Legal!")
 }

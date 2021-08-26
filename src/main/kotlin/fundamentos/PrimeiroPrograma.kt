@@ -1,6 +1,6 @@
 package fundamentos
 
-fun main() {
+fun main(args: Array<String>) {
     print("Primeiro")
-    println(" Programa!")
+    println(" programa!");
 }

@@ -1,6 +1,6 @@
 package fundamentos
 
-fun main() {
+fun main(args: Array<String>) {
     val a: Int = 33.dec()
     var b: String = a.toString()
 

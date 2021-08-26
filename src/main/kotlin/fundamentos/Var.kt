@@ -1,8 +1,8 @@
 package fundamentos
 
-fun main() {
-    var a: Int  //definição explicita do tipo da variavel
-    var b = 2  //tipo inferido automaticamente pelo tipo de dao inserido
+fun main(args: Array<String>) {
+    var a: Int
+    var b = 2 // Tipo inferido
 
     a = 10
 
